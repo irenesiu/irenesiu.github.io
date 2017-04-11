@@ -1,0 +1,79 @@
+#wrapper
+{background: url(../img/sweets-03.svg);
+background-size: cover;
+background-position: center bottom;
+height: 100%;
+width: 100%;
+display: inline-flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 0px;
+position: relative;
+z-index: -50;
+background-repeat: no-repeat;
+}
+
+
+
+.slider{
+  width:800px;
+  height:100%;
+  overflow:hidden;
+  position: absolute;
+  left:0px;
+  display: -webki-flex; /* Safari */
+  -webkit-align-items: center; /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+  margin-bottom: 0;
+  max-width: 100%;
+}
+
+.slider >img{
+  object-position: center; /* Center the image within the element */
+  width: 100%;
+  display: none;
+  max-width: 100%;
+  height: auto;
+}
+
+#wrappertwo
+{background: url(../img/salted-05.svg);
+  background-size: cover;
+  background-position: center bottom;
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  position: relative;
+  z-index: -50;
+  background-repeat: no-repeat;
+}
+
+.slidertwo{
+  width:800px;
+  height:100%;
+  overflow:hidden;
+  position: absolute;
+  left:0px;
+  display: -webki-flex; /* Safari */
+  -webkit-align-items: center; /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+  margin: auto;
+  max-width: 100%;
+}
+
+.slidertwo >img{
+  object-position: center; /* Center the image within the element */
+  width: 800px;
+  height:auto;
+  overflow: hidden;
+  position: absolute;
+
+}
