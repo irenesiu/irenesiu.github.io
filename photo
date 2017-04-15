@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <link rel="icon" type="image/png" href="img/favicon_irenesiu.png" />
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="css/photo.css">
+<link rel="stylesheet" href="css/animate.css">
+
+
+
+
+<title>I R E N E S I U - Photography As Method</title>
+<meta name="viewport" content="width=device-width", initial-scale=1">
+
+  </head>
+
+
+    <body>
+   <div class="container">
+    <div class="wrappertwo" id="colorpicker">
+<div class="post">
+                <img src="img/me.gif" class="unselected">
+</div>
+<div class="post">
+                <img src="img/mockup_1.jpg" class="image" />
+                </div>
+<div class="post">
+                <img src="img/mockup_2.jpg" class="image" />
+</div>
+<div class="post">
+                <img src="img/mockup_3.jpg" class="image" />
+
+                </div>
+                </div>
+
+      </div>
+<div id="return">
+<a href= "index#work"><img src=img/prev.png></a>
+</div>
+
+         </body>
+
+         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+         <script src="js/viewportchecker.js"></script>
+         <script type="text/javascript">
+           jQuery(document).ready(function() {
+           	jQuery('.post').addClass("hidden").viewportChecker({
+           	    classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
+           	    offset: 100
+           	   });
+           });
+         </script>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <link rel="icon" type="image/png" href="img/favicon_irenesiu.png" />
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/rooster.css">
+
+
+
+
+<title>I R E N E S I U - Year of the Rooster</title>
+<meta name="viewport" content="width=device-width", initial-scale=1">
+<link rel="Stylesheet" href="css/style.css"/>
+
+
+
+  </head>
+
+    <body>
+
+      <div class="chicken">
+        <img style="padding: 100px 70px; width:900px;" src=img/chicken.jpg>
+</div>
+<div id="return">
+<a href= "index#work"><img src=img/prev.png></a>
+</div>
+
+
+
+
+
+         </body>
+       </html>
