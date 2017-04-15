@@ -1,0 +1,32 @@
+body {
+    background: url(../img/crave.svg) no-repeat top left;
+    margin: 0;
+    padding: 0;
+    width: 810px;
+    height: 2500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img.image{
+  padding: 40px 100px;
+width:900px;
+}
+
+#return{
+  right: 100px;
+  position: fixed;
+      bottom: 60px;
+}
+
+a:hover{
+  opacity: .5
+}
+
+.hidden{
+	opacity: 0;
+}
+
+.visible{
+	opacity: 1;
+}

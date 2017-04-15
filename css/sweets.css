@@ -1,0 +1,47 @@
+
+
+body {
+    background: url(../img/sweets.svg) no-repeat top left;
+    margin: 0;
+    padding: 0;
+    width: 810px;
+    height: 2500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+img.image{
+  padding: 10px 100px;
+width:900px;
+}
+
+
+
+
+
+
+#colorpicker .unselected{
+padding: 60px 0px 60px 0px;
+
+	display: inline-block;
+}
+
+
+#return{
+  right: 100px;
+  position: fixed;
+      bottom: 60px;
+}
+
+a:hover{
+  opacity: .5
+}
+
+.hidden{
+	opacity: 0;
+}
+
+.visible{
+	opacity: 1;
+}
