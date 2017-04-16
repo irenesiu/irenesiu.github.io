@@ -1,1 +1,0 @@
-[sweets](doc/sweets.html)
