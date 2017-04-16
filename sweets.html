@@ -25,6 +25,18 @@
   </head>
 
     <body>
+                                                                    
+                                                                    <script src="js/viewportchecker.js"></script>
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+            
+            <script type="text/javascript">
+              jQuery(document).ready(function() {
+              	jQuery('.post').addClass("hidden").viewportChecker({
+              	    classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
+              	    offset: 100
+              	   });
+              });
+            </script>
       <div class="container">
          <div class="post">
        <div class="wrappertwo" id="colorpicker">
@@ -49,17 +61,7 @@
    <a href= "index#work"><img src=img/prev.png></a>
    </div>
 
-<script src="js/viewportchecker.js"></script>
-            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-            
-            <script type="text/javascript">
-              jQuery(document).ready(function() {
-              	jQuery('.post').addClass("hidden").viewportChecker({
-              	    classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
-              	    offset: 100
-              	   });
-              });
-            </script>
+
 
 
 
