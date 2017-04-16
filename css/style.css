@@ -12,8 +12,8 @@ body {
 }
 
 @font-face {
-     font-family: Thonburi-Bold;
-     src: url('pathway/Thonburi-Bold.otf'); 
+     font-family: Nexa Bold;
+     src: url('../font/Nexa Bold.otf'); 
 }
 
 .Dual-300 {
